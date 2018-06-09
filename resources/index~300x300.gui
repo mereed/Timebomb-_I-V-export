@@ -1,0 +1,73 @@
+<svg id="page" class="portrait-view">
+
+  <svg>
+    
+    <svg id="time1" display="inline">
+      
+      <image id="bgcol0" href="sepbg.png" x="141" y="103" width="22" height="107" fill="#FFFFFF" opacity=".3" />
+      <image id="bgcol1" href="timebg.png" x="-12" y="84" width="101" height="140" fill="#FFFFFF" opacity=".3" />
+      <image id="bgcol2" href="timebg.png" x="52" y="84" width="101" height="140" fill="#FFFFFF" opacity=".3"  />
+      <image id="bgcol3" href="timebg.png" x="151" y="84" width="101" height="140" fill="#FFFFFF" opacity=".3"  />
+      <image id="bgcol4" href="timebg.png" x="215" y="84" width="101" height="140" fill="#FFFFFF" opacity=".3" />
+
+      <image load="sync" id="separator" href="separator.png" x="140" y="102" width="24" height="107" fill="#FFFFFF"/>
+      <image load="sync" id="hours1" href="1.png" x="3" y="107" width="68" height="93" fill="#FFFFFF" />
+      <image load="sync" id="hours2" href="3.png" x="68" y="107" width="68" height="93" fill="#FFFFFF"  />
+      <image load="sync" id="mins1" href="3.png" x="167" y="107" width="68" height="93" fill="#FFFFFF"  />
+      <image load="sync" id="mins2" href="7.png" x="231" y="107" width="68" height="93" fill="#FFFFFF"  />
+      <image id="bksepbox" href="box.png" x="172" y="84" width="18" height="93" display="none"/>    
+    </svg>
+ 
+    <svg id="time2" display="none">
+      <image id="separatorsmall" href="separatorsmall.png" x="149" y="4" width="6" height="27" fill="#FFFFFF"  />
+      <image id="hours1p" href="s0.png" x="105" y="2" width="20" height="27" fill="#FFFFFF"  />
+      <image id="hours2p" href="s0.png" x="125" y="2" width="20" height="27" fill="#FFFFFF"  />    
+      <image id="mins1p" href="s0.png" x="158" y="2" width="20" height="27" fill="#FFFFFF"  />
+      <image id="mins2p" href="s0.png" x="178" y="2" width="20" height="27" fill="#FFFFFF" />    
+      <image load="sync" id="secs1p" href="p0.png" x="-5" y="80" width="150" height="150" fill="#FFFFFF" />
+      <image load="sync" id="secs2p" href="p0.png" x="155" y="80" width="150" height="150" fill="#FFFFFF" />   
+    </svg> 
+    
+    
+  </svg>
+  
+   
+   <svg id="stats" >
+         <rect id="myButton" x="0" y="0" width="348" height="250" fill="black" opacity="0" />
+
+        <image id="stepbox" href="stepbox.png" x="15%" y="31" width="125" height="25" fill="#FFFFFF" />     
+      <image id="floorsbox" href="floorsbox.png" x="58%" y="31" width="86" height="25" fill="#FFFFFF" />     
+      <image id="calsbox" href="calsbox.png" x="1%" y="61" width="88" height="25" fill="#FFFFFF" />     
+      <image id="distbox" href="distbox.png" x="32%" y="61" width="125" height="25" fill="#FFFFFF" />     
+      <image id="actbox" href="actbox.png" x="75%" y="61" width="75" height="25" fill="#FFFFFF" />     
+      <image id="datebox" href="datebox.png" x="1%" y="220" width="185" height="60" fill="#FFFFFF" />     
+      <image id="hrmbox" href="hrmbox.png" x="65%" y="220" width="103" height="60" fill="#FFFFFF" />     
+
+    <text id="mysteps" />
+    <text id="distance" />
+    <text id="hrm" /> 
+    <text id="resting-heart" />
+    <text id="cals" />
+    <text id="act" />
+    <text id="ele" />
+    <text id="vtiny1"  class="vtiny1" />
+    <text id="vtiny2"  class="vtiny2" />
+    <text id="dateLabel" />
+    <text id="dateLabel1" />
+
+    <text id="batterytext" class="smalltext2" x="9%" y="82%" fill="#FFFFFF"/>
+    <image id="tb10" href="bombbatt10.png" x="3%" y="76%" width="20" height="20" fill="#333333" />     
+
+    <image id="calimg" href="stat_cals_solid_20.png" x="3%" y="21%" width="20" height="20" fill="#FFFFFF" display="none"/>     
+    <image id="stepimg" href="stat_steps_solid_20.png" x="18%" y="11%" width="20" height="20" fill="#FFFFFF" display="none"/>     
+    <image id="actimg" href="stat_am_solid_20.png" x="77%" y="21%" width="20" height="20" fill="#FFFFFF" display="none"/>     
+    <image id="distimg" href="stat_dist_solid_20.png" x="34%" y="21%" width="20" height="20" fill="#FFFFFF" display="none"/>     
+    <image id="eleimg" href="stat_floors_solid_20.png" x="60%" y="11%" width="20" height="20" fill="#FFFFFF" display="none"/>     
+  </svg> 
+  
+  
+      <rect id="clickbg" x="0" y="150" width="50%" height="150" pointer-events="visible"  />
+      <rect id="timeformat" x="0" y="0" width="100%" height="150" pointer-events="visible"  />
+
+</svg>
+<!-- 300x300 -->

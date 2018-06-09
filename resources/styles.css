@@ -1,0 +1,145 @@
+.background {
+  viewport-fill: black;
+}
+
+.smalltext     {
+  font-size: 24;
+  font-family: Seville-Regular;
+  font-weight: regular;
+  fill: white;
+  text-anchor: start;
+  text-length: 32;
+}
+
+.smalltext2     {
+  font-size: 20;
+  font-family: Seville-Regular;
+  font-weight: regular;
+  fill: white;
+  text-anchor: start;
+  text-length: 32;
+}
+
+#clickbg {
+  fill: black;
+  opacity: 0;
+}
+
+#timeformat {
+  fill: black;
+  opacity: 0
+}
+
+#page {
+  fill: black;
+}
+
+#dateLabel {
+  font-size: 22;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: end;
+  x: 62%;
+  y: 88%;
+  fill: white;
+}
+
+#dateLabel1 {
+  font-size: 22;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: end;
+  x: 62%;
+  y: 97%;
+  fill: white;
+}
+
+#mysteps {
+  font-size: 22;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 8%;
+  y: 21%;
+  fill: white;
+}
+
+#distance {
+  font-size: 22;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 45%;
+  y: 21%;
+  fill: white;
+}
+
+#hrm {
+  font-size: 30 ;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: end;
+  x: 86%;
+  y: 88%;
+  fill: white;
+}
+
+#ele {
+  font-size: 22;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 84%;
+  y: 9%;
+  fill: white;
+}
+
+#act {
+  font-size: 22;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 85%;
+  y: 21%;
+  fill: white;
+}
+
+#cals {
+  font-size: 22;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 8%;
+  y: 9%;
+  fill: white;
+}
+
+#vtiny1 {
+  font-size: 16;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 87%;
+  y: 88%;
+  fill: white;
+}
+
+#vtiny2 {
+  font-size: 16;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: start;
+  x: 87%;
+  y: 97%;
+  fill: white;
+}
+
+#resting-heart {
+  font-size: 22 ;
+  font-family: Seville-Regular;
+  text-length: 32;
+  text-anchor: end;
+  x: 86%;
+  y: 97%;
+  fill: white;
+}

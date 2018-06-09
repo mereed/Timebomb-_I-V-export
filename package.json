@@ -1,0 +1,53 @@
+{
+  "fitbit": {
+    "appUUID": "3b0b51eb-eaf6-4448-9aa9-949327d4390b",
+    "appType": "clockface",
+    "appDisplayName": "Timebomb",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#03a9f4",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "meson",
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Timebomb"
+      },
+      "de": {
+        "name": "Timebomb"
+      },
+      "es": {
+        "name": "Timebomb"
+      },
+      "fr": {
+        "name": "Timebomb"
+      },
+      "it": {
+        "name": "Timebomb"
+      },
+      "ja": {
+        "name": "Timebomb"
+      },
+      "ko": {
+        "name": "Timebomb"
+      },
+      "nl": {
+        "name": "Timebomb"
+      },
+      "sv": {
+        "name": "Timebomb"
+      },
+      "zh-cn": {
+        "name": "Timebomb"
+      },
+      "zh-tw": {
+        "name": "Timebomb"
+      }
+    }
+  }
+}
